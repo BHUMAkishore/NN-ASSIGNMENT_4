@@ -46,4 +46,12 @@ Captures long-range dependencies (e.g., link "it" to "cat" even if they're far a
 Provides context-aware meaning (e.g., "bank" in "river bank" vs. "money bank").
 Handles multiple relationships at once using attention weights.
 
+1.What is the main architectural difference between BERT and GPT? Which uses an encoder and which uses a decoder?
+BERT uses an encoder-only architecture and is bidirectional, focusing on understanding language.
+GPT uses a decoder-only architecture and is unidirectional (left-to-right), focusing on generating language.
+2.Explain why using pre-trained models (like BERT or GPT) is beneficial for NLP applications instead of training from scratch.
+Using pre-trained models like BERT or GPT is beneficial because:
+ They save time and resources—training from scratch requires massive data and compute.
+ They provide state-of-the-art performance with minimal fine-tuning.
+ They capture rich language patterns learned from large corpora, improving results on downstream tasks (e.g., sentiment analysis, NER).
 
